@@ -50,7 +50,7 @@ public class main_process extends HttpServlet {
 			goal_name = obj.getString("goal name");
 		}
 
-		Integer savings_amount = obj.getInt("savings amount");
+		double savings_amount = obj.getDouble("savings amount");
 
 		JSONArray arr = obj.getJSONArray("priorities");
 		priorities = new HashMap<Integer, String>();
