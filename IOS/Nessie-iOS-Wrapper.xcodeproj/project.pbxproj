@@ -12,8 +12,6 @@
 		5B4B74E61BB98A0600197534 /* NessieFmwk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C549F11ACEE595002206AC /* NessieFmwk.framework */; };
 		5B4B74E71BB98A0600197534 /* NessieFmwk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8C549F11ACEE595002206AC /* NessieFmwk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5BB790541B9670A800488749 /* Merchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB790531B9670A800488749 /* Merchant.swift */; };
-		5BF0FEA01D8C675700223ED4 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0FE9F1D8C675700223ED4 /* TabViewController.swift */; };
-		5BF0FEA21D8C676900223ED4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0FEA11D8C676900223ED4 /* SecondViewController.swift */; };
 		5BF9F35C1B98A902000D2D4D /* Transfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9F35B1B98A902000D2D4D /* Transfer.swift */; };
 		5BF9F35E1B98A90E000D2D4D /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9F35D1B98A90E000D2D4D /* Purchase.swift */; };
 		6CC56EBF75D8E1BD508B2BC0 /* Pods_NessieTestProjTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A1DB88D89CE0CE951B7CC9 /* Pods_NessieTestProjTests.framework */; };
@@ -21,7 +19,6 @@
 		B81D5BC31B0A87470086B2C6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81D5BC21B0A87470086B2C6 /* Customer.swift */; };
 		B834EB091AE5AAEA00379E11 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B834EB081AE5AAEA00379E11 /* Account.swift */; };
 		B834EB131AE5BB5000379E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B834EB121AE5BB5000379E11 /* AppDelegate.swift */; };
-		B834EB151AE5BB5000379E11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B834EB141AE5BB5000379E11 /* ViewController.swift */; };
 		B834EB181AE5BB5000379E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B834EB161AE5BB5000379E11 /* Main.storyboard */; };
 		B834EB1A1AE5BB5000379E11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B834EB191AE5BB5000379E11 /* Images.xcassets */; };
 		B834EB1D1AE5BB5000379E11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B834EB1B1AE5BB5000379E11 /* LaunchScreen.xib */; };
@@ -33,19 +30,18 @@
 		B85401A41B0A895400031001 /* Deposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85401A31B0A895400031001 /* Deposit.swift */; };
 		B85401A61B0AE49500031001 /* Withdrawal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85401A51B0AE49500031001 /* Withdrawal.swift */; };
 		B86E4A7D1B0BD3C00076A6D0 /* EnterpriseRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E4A7C1B0BD3C00076A6D0 /* EnterpriseRequests.swift */; };
-		B86E4A7F1B0BD6EF0076A6D0 /* NSEFunctionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E4A7E1B0BD6EF0076A6D0 /* NSEFunctionalTests.swift */; };
 		B8C549F71ACEE595002206AC /* Nessie-iOS-Wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C549F61ACEE595002206AC /* Nessie-iOS-Wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8C549FD1ACEE595002206AC /* NessieFmwk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C549F11ACEE595002206AC /* NessieFmwk.framework */; };
 		B8C54A041ACEE595002206AC /* Nessie_iOS_WrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C54A031ACEE595002206AC /* Nessie_iOS_WrapperTests.swift */; };
 		B8C54A0E1ACEE5A6002206AC /* NSEClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C54A0D1ACEE5A6002206AC /* NSEClient.swift */; };
-		EF15BF421EE8C0A800631CC8 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BF411EE8C0A800631CC8 /* TestViewController.swift */; };
 		EF15BF441EE8C2CD00631CC8 /* LogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BF431EE8C2CD00631CC8 /* LogoViewController.swift */; };
-		EF15BF4E1EE8CF2400631CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BF4D1EE8CF2400631CC8 /* AppDelegate.swift */; };
-		EF15BF501EE8CF2400631CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BF4F1EE8CF2400631CC8 /* ViewController.swift */; };
-		EF15BF531EE8CF2400631CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF15BF511EE8CF2400631CC8 /* Main.storyboard */; };
-		EF15BF551EE8CF2400631CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF15BF541EE8CF2400631CC8 /* Assets.xcassets */; };
-		EF15BF581EE8CF2400631CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF15BF561EE8CF2400631CC8 /* LaunchScreen.storyboard */; };
 		EF15BF621EE8D34200631CC8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EF15BF611EE8D34200631CC8 /* logo.png */; };
+		EF15BF641EE8DECE00631CC8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BF631EE8DECE00631CC8 /* RegisterViewController.swift */; };
+		EF15BF661EE8DEDA00631CC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BF651EE8DEDA00631CC8 /* LoginViewController.swift */; };
+		EF15BF681EE8DEEC00631CC8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BF671EE8DEEC00631CC8 /* DetailViewController.swift */; };
+		EF15BF6C1EE981A900631CC8 /* MyPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BF6B1EE981A900631CC8 /* MyPurchase.swift */; };
+		EF15BF6E1EE9839800631CC8 /* PurchasesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BF6D1EE9839800631CC8 /* PurchasesTableViewController.swift */; };
+		EF15BF701EE9852600631CC8 /* PurchaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BF6F1EE9852600631CC8 /* PurchaseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +90,6 @@
 		48FAB78D804C8A747637B6E3 /* Pods-NessieTestProjTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NessieTestProjTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NessieTestProjTests/Pods-NessieTestProjTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E0305306622BC39D747187E /* Pods-NessieTestProjTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NessieTestProjTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NessieTestProjTests/Pods-NessieTestProjTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BB790531B9670A800488749 /* Merchant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merchant.swift; sourceTree = "<group>"; };
-		5BF0FE9F1D8C675700223ED4 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
-		5BF0FEA11D8C676900223ED4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5BF9F35B1B98A902000D2D4D /* Transfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transfer.swift; sourceTree = "<group>"; };
 		5BF9F35D1B98A90E000D2D4D /* Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		7EC42DA9F69D3D23B7431629 /* Pods-NessieTestProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NessieTestProj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NessieTestProj/Pods-NessieTestProj.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,7 +100,6 @@
 		B834EB0E1AE5BB5000379E11 /* NessieTestProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NessieTestProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B834EB111AE5BB5000379E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B834EB121AE5BB5000379E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B834EB141AE5BB5000379E11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B834EB171AE5BB5000379E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B834EB191AE5BB5000379E11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B834EB1C1AE5BB5000379E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -120,7 +113,6 @@
 		B85401A31B0A895400031001 /* Deposit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deposit.swift; sourceTree = "<group>"; };
 		B85401A51B0AE49500031001 /* Withdrawal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Withdrawal.swift; sourceTree = "<group>"; };
 		B86E4A7C1B0BD3C00076A6D0 /* EnterpriseRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterpriseRequests.swift; sourceTree = "<group>"; };
-		B86E4A7E1B0BD6EF0076A6D0 /* NSEFunctionalTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSEFunctionalTests.swift; sourceTree = "<group>"; };
 		B8C549F11ACEE595002206AC /* NessieFmwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NessieFmwk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C549F51ACEE595002206AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8C549F61ACEE595002206AC /* Nessie-iOS-Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nessie-iOS-Wrapper.h"; sourceTree = "<group>"; };
@@ -129,21 +121,14 @@
 		B8C54A031ACEE595002206AC /* Nessie_iOS_WrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nessie_iOS_WrapperTests.swift; sourceTree = "<group>"; };
 		B8C54A0D1ACEE5A6002206AC /* NSEClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSEClient.swift; sourceTree = "<group>"; };
 		EC922BD1A7DD87AB888E8264 /* Pods-NessieTestProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NessieTestProj.release.xcconfig"; path = "Pods/Target Support Files/Pods-NessieTestProj/Pods-NessieTestProj.release.xcconfig"; sourceTree = "<group>"; };
-		EF15BF161EE8762300631CC8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../hackathon/LoginViewController.swift; sourceTree = "<group>"; };
-		EF15BF241EE8777000631CC8 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../hackathon/FirstViewController.swift; sourceTree = "<group>"; };
-		EF15BF261EE8785B00631CC8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../hackathon/logo.png; sourceTree = "<group>"; };
-		EF15BF281EE8848400631CC8 /* GoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoalViewController.swift; path = ../hackathon/GoalViewController.swift; sourceTree = "<group>"; };
-		EF15BF2A1EE889CC00631CC8 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../hackathon/RegisterViewController.swift; sourceTree = "<group>"; };
-		EF15BF411EE8C0A800631CC8 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		EF15BF431EE8C2CD00631CC8 /* LogoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoViewController.swift; sourceTree = "<group>"; };
-		EF15BF4B1EE8CF2400631CC8 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF15BF4D1EE8CF2400631CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF15BF4F1EE8CF2400631CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF15BF521EE8CF2400631CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF15BF541EE8CF2400631CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF15BF571EE8CF2400631CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EF15BF591EE8CF2400631CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF15BF611EE8D34200631CC8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EF15BF631EE8DECE00631CC8 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EF15BF651EE8DEDA00631CC8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF15BF671EE8DEEC00631CC8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EF15BF6B1EE981A900631CC8 /* MyPurchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPurchase.swift; sourceTree = "<group>"; };
+		EF15BF6D1EE9839800631CC8 /* PurchasesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesTableViewController.swift; sourceTree = "<group>"; };
+		EF15BF6F1EE9852600631CC8 /* PurchaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseTableViewCell.swift; sourceTree = "<group>"; };
 		F7F13BF5E16F790B0DBAD332 /* Pods_Nessie_iOS_Wrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nessie_iOS_Wrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8680D7E88650FEF78323288 /* Pods-Nessie-iOS-WrapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nessie-iOS-WrapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nessie-iOS-WrapperTests/Pods-Nessie-iOS-WrapperTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,13 +168,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF15BF481EE8CF2400631CC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -212,20 +190,17 @@
 			isa = PBXGroup;
 			children = (
 				B834EB121AE5BB5000379E11 /* AppDelegate.swift */,
-				B834EB141AE5BB5000379E11 /* ViewController.swift */,
-				5BF0FEA11D8C676900223ED4 /* SecondViewController.swift */,
-				5BF0FE9F1D8C675700223ED4 /* TabViewController.swift */,
-				B86E4A7E1B0BD6EF0076A6D0 /* NSEFunctionalTests.swift */,
-				EF15BF241EE8777000631CC8 /* FirstViewController.swift */,
-				EF15BF161EE8762300631CC8 /* LoginViewController.swift */,
-				EF15BF281EE8848400631CC8 /* GoalViewController.swift */,
-				EF15BF2A1EE889CC00631CC8 /* RegisterViewController.swift */,
-				EF15BF411EE8C0A800631CC8 /* TestViewController.swift */,
 				B834EB161AE5BB5000379E11 /* Main.storyboard */,
 				B834EB191AE5BB5000379E11 /* Images.xcassets */,
 				B834EB1B1AE5BB5000379E11 /* LaunchScreen.xib */,
 				B834EB101AE5BB5000379E11 /* Supporting Files */,
 				EF15BF431EE8C2CD00631CC8 /* LogoViewController.swift */,
+				EF15BF631EE8DECE00631CC8 /* RegisterViewController.swift */,
+				EF15BF651EE8DEDA00631CC8 /* LoginViewController.swift */,
+				EF15BF671EE8DEEC00631CC8 /* DetailViewController.swift */,
+				EF15BF6B1EE981A900631CC8 /* MyPurchase.swift */,
+				EF15BF6D1EE9839800631CC8 /* PurchasesTableViewController.swift */,
+				EF15BF6F1EE9852600631CC8 /* PurchaseTableViewCell.swift */,
 			);
 			path = NessieTestProj;
 			sourceTree = "<group>";
@@ -263,7 +238,6 @@
 				B8C54A001ACEE595002206AC /* Nessie-iOS-WrapperTests */,
 				B834EB0F1AE5BB5000379E11 /* NessieTestProj */,
 				B834EB251AE5BB5000379E11 /* NessieTestProjTests */,
-				EF15BF4C1EE8CF2400631CC8 /* test */,
 				B8C549F21ACEE595002206AC /* Products */,
 				45FAB53BCD40BAB5A27B47C0 /* Pods */,
 				D42CB02BEA054D7F1B3E412A /* Frameworks */,
@@ -277,7 +251,6 @@
 				B8C549FC1ACEE595002206AC /* Nessie-iOS-WrapperTests.xctest */,
 				B834EB0E1AE5BB5000379E11 /* NessieTestProj.app */,
 				B834EB221AE5BB5000379E11 /* NessieTestProjTests.xctest */,
-				EF15BF4B1EE8CF2400631CC8 /* test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -338,20 +311,6 @@
 				44A1DB88D89CE0CE951B7CC9 /* Pods_NessieTestProjTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EF15BF4C1EE8CF2400631CC8 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				EF15BF261EE8785B00631CC8 /* logo.png */,
-				EF15BF4D1EE8CF2400631CC8 /* AppDelegate.swift */,
-				EF15BF4F1EE8CF2400631CC8 /* ViewController.swift */,
-				EF15BF511EE8CF2400631CC8 /* Main.storyboard */,
-				EF15BF541EE8CF2400631CC8 /* Assets.xcassets */,
-				EF15BF561EE8CF2400631CC8 /* LaunchScreen.storyboard */,
-				EF15BF591EE8CF2400631CC8 /* Info.plist */,
-			);
-			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,23 +411,6 @@
 			productReference = B8C549FC1ACEE595002206AC /* Nessie-iOS-WrapperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EF15BF4A1EE8CF2400631CC8 /* test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF15BF5A1EE8CF2400631CC8 /* Build configuration list for PBXNativeTarget "test" */;
-			buildPhases = (
-				EF15BF471EE8CF2400631CC8 /* Sources */,
-				EF15BF481EE8CF2400631CC8 /* Frameworks */,
-				EF15BF491EE8CF2400631CC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = test;
-			productName = test;
-			productReference = EF15BF4B1EE8CF2400631CC8 /* test.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -482,6 +424,7 @@
 				TargetAttributes = {
 					B834EB0D1AE5BB5000379E11 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = HL62JH684W;
 						LastSwiftMigration = 0800;
 					};
 					B834EB211AE5BB5000379E11 = {
@@ -496,10 +439,6 @@
 					B8C549FB1ACEE595002206AC = {
 						CreatedOnToolsVersion = 6.1.1;
 						LastSwiftMigration = 0810;
-					};
-					EF15BF4A1EE8CF2400631CC8 = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -520,7 +459,6 @@
 				B8C549FB1ACEE595002206AC /* Nessie-iOS-WrapperTests */,
 				B834EB0D1AE5BB5000379E11 /* NessieTestProj */,
 				B834EB211AE5BB5000379E11 /* NessieTestProjTests */,
-				EF15BF4A1EE8CF2400631CC8 /* test */,
 			);
 		};
 /* End PBXProject section */
@@ -555,16 +493,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF15BF491EE8CF2400631CC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF15BF581EE8CF2400631CC8 /* LaunchScreen.storyboard in Resources */,
-				EF15BF551EE8CF2400631CC8 /* Assets.xcassets in Resources */,
-				EF15BF531EE8CF2400631CC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,13 +671,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF0FEA01D8C675700223ED4 /* TabViewController.swift in Sources */,
-				B834EB151AE5BB5000379E11 /* ViewController.swift in Sources */,
+				EF15BF681EE8DEEC00631CC8 /* DetailViewController.swift in Sources */,
+				EF15BF6C1EE981A900631CC8 /* MyPurchase.swift in Sources */,
+				EF15BF6E1EE9839800631CC8 /* PurchasesTableViewController.swift in Sources */,
+				EF15BF701EE9852600631CC8 /* PurchaseTableViewCell.swift in Sources */,
+				EF15BF641EE8DECE00631CC8 /* RegisterViewController.swift in Sources */,
 				B834EB131AE5BB5000379E11 /* AppDelegate.swift in Sources */,
+				EF15BF661EE8DEDA00631CC8 /* LoginViewController.swift in Sources */,
 				EF15BF441EE8C2CD00631CC8 /* LogoViewController.swift in Sources */,
-				5BF0FEA21D8C676900223ED4 /* SecondViewController.swift in Sources */,
-				EF15BF421EE8C0A800631CC8 /* TestViewController.swift in Sources */,
-				B86E4A7F1B0BD6EF0076A6D0 /* NSEFunctionalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -786,15 +715,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C54A041ACEE595002206AC /* Nessie_iOS_WrapperTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF15BF471EE8CF2400631CC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF15BF501EE8CF2400631CC8 /* ViewController.swift in Sources */,
-				EF15BF4E1EE8CF2400631CC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,22 +755,6 @@
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
-		EF15BF511EE8CF2400631CC8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF15BF521EE8CF2400631CC8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EF15BF561EE8CF2400631CC8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF15BF571EE8CF2400631CC8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -860,7 +764,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HL62JH684W;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -880,7 +784,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HL62JH684W;
 				INFOPLIST_FILE = NessieTestProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACH_O_TYPE = mh_execute;
@@ -1110,42 +1014,6 @@
 			};
 			name = Release;
 		};
-		EF15BF5B1EE8CF2400631CC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cs378.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		EF15BF5C1EE8CF2400631CC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				INFOPLIST_FILE = test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cs378.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1193,14 +1061,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		EF15BF5A1EE8CF2400631CC8 /* Build configuration list for PBXNativeTarget "test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF15BF5B1EE8CF2400631CC8 /* Debug */,
-				EF15BF5C1EE8CF2400631CC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
