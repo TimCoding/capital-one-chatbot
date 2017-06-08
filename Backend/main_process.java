@@ -19,6 +19,7 @@ public class main_process extends HttpServlet {
 
 		try {
 
+			response.setContentType("application/json");
 			BufferedReader reader = request.getReader();
 
 			while ((curLine = reader.readLine()) != null) {
@@ -42,6 +43,13 @@ public class main_process extends HttpServlet {
 				PrintWriter output = response.getWriter();
 				output.println(finish_data);
 
+			}
+			else {
+
+				JSONObject failure = new JSONObject();
+				failure.put("Failure", "Cannot save enought");
+				PrintWriter output = response.getWriter();
+				output.println(failure);
 			}
 
 		} catch (Exception error) {
