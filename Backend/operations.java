@@ -27,7 +27,7 @@ public class operations {
 		priorities = p;
 	}
 
-	public operations(String n, String gt, String gn, Integer s, HashMap<Integer, String> p) {
+	public operations(String n, String gt, String gn, double s, HashMap<Integer, String> p) {
 
 		name = n;
 		goal_type = gt;

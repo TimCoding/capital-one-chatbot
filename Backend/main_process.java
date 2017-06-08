@@ -7,6 +7,7 @@ import java.util.*;
 public class main_process extends HttpServlet {
 
 	private HashMap<Integer, String> priorities;
+	private HashMap<String, JSONObject> data;
 	private String[] frivilous = {"fast food", "movies", "games", "luxury brands", "home improvement", "digital subscriptions",
 		"physical subscriptions", "electronics", "gifts", "cable"};
 
@@ -24,22 +25,33 @@ public class main_process extends HttpServlet {
 
 				read.append(curLine);
 			}
-		} catch (Exception error) {
-
-			System.out.println("Buffer Reader fail");
-		}
-
-		try {
 
 			JSONObject obj = HTTP.toJSONObject(read.toString());
-		} catch (JSONException error) {
+			boolean complete = processData(obj);
 
-			System.out.println("Error parsing JSON");
+			if(complete) {
+
+				JSONArray finish_data = new JSONArray();
+				Set<String> keys = data.keySet();
+
+				for(String s : keys) {
+
+					finish_data.put(data.get(s));
+				}
+
+				PrintWriter output = response.getWriter();
+				output.println(finish_data);
+
+			}
+
+		} catch (Exception error) {
+
+			System.out.println(error);
 		}
 
 	}
 
-	public void processData(JSONObject obj) throws JSONException {
+	public boolean processData(JSONObject obj) throws Exception {
 
 		String name = obj.getString("name");
 		String goal_type = obj.getString("goal type");
@@ -62,6 +74,16 @@ public class main_process extends HttpServlet {
 
 			priorities.put(cur_num, cur_priority);
 		}
+
+		operations curOP = new operations(name, goal_type, goal_name, savings_amount, priorities);
+		boolean isSuccessfull = curOP.takeAway();
+
+		if(isSuccessfull) {
+
+			data = curOP.returnFrivilous();
+			return true;
+		}
+		return false;
 
 	}
 }
